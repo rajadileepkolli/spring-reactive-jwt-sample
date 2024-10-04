@@ -271,14 +271,8 @@
                                 <inherited>true</inherited>
                                 <configuration>
                                     <target>
-                                        <copy
-                                            file="${project.basedir}/.eclipse/org.eclipse.jdt.core.prefs"
-                                            todir="${basedir}/.settings"
-                                            force="true" />
-                                        <copy
-                                            file="${project.basedir}/.eclipse/org.eclipse.jdt.ui.prefs"
-                                            todir="${basedir}/.settings"
-                                            force="true" />
+                                        <copy file="${project.basedir}/.eclipse/org.eclipse.jdt.core.prefs" todir="${basedir}/.settings" force="true"/>
+                                        <copy file="${project.basedir}/.eclipse/org.eclipse.jdt.ui.prefs" todir="${basedir}/.settings" force="true"/>
                                     </target>
                                 </configuration>
                             </execution>
